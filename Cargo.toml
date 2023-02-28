@@ -1,0 +1,11 @@
+[package]
+name = "egui-crash"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = { version = "0.21.3", features = ["persistence"] }
+
+[patch.crates-io]
+egui = { git = "https://github.com/emilk/egui", branch = "master" }
+eframe = { git = "https://github.com/emilk/egui", branch = "master" }
